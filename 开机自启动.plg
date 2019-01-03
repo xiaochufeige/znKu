@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 开机自启动 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\fan\AppData\Local\Temp\RSPEDE5.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/开机自启动.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\我的程序\开机自启动\20181015开机自启动\开机自启动.cpp"
+"D:\我的程序\开机自启动\20181015开机自启动\开机自启动Dlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\fan\AppData\Local\Temp\RSPEDE5.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/开机自启动.pdb" /machine:I386 /out:"Release/开机自启动.exe"  ".\Release\StdAfx.obj" ".\Release\开机自启动.obj" ".\Release\开机自启动Dlg.obj" ".\Release\开机自启动.res" "
+<h3>Output Window</h3>
+Compiling...
+开机自启动.cpp
+开机自启动Dlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/开机自启动.bsc"  ".\Release\StdAfx.sbr" ".\Release\开机自启动.sbr" ".\Release\开机自启动Dlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+开机自启动.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
